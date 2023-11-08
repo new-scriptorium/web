@@ -45,20 +45,19 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
        <li class="nav-item">
-         <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Sections</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown04">
-              <li><a class="dropdown-item" href="book-of-common-prayer.html">Book of Common Prayer</a></li>
-              <li><a class="dropdown-item" href="thirty-nine-articles.html">Thirty-nine Articles</a></li>
-              <li><a class="dropdown-item" href="church.html">The Church</a></li> 
-              <li><a class="dropdown-item" href="prayers-and-collects.html">Prayers and Collects</a></li> 
-              <li><a class="dropdown-item" href="miscellany.html">Miscellany</a></li> 
-            </ul>
-          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="anglican-works.html">Anglican Works</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="toon-collection.html">Toon Collection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prayers-collects.html">Prayers and Collects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -69,7 +68,14 @@
   </div>
 </nav>
 
-  
+<main class="container">
+  <div class="bg-light p-5 rounded">
+    <h1>Navbar example</h1>
+    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+    <a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>
+  </div>
+</main>
+    
     <!-- Custom styles for main template -->
     <link href="starter-template.css" rel="stylesheet">
   </head>
@@ -79,7 +85,7 @@
   <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
     <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-      <span class="fs-4">The Book of Common Prayer Section holder page</span>
+      <span class="fs-4">Anglican Works holder page</span>
     </a>
   </header>
 
@@ -100,55 +106,7 @@
         <ul class="icon-list">
           <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">Bootstrap npm starter</a></li>
           <li class="text-muted">Bootstrap Parcel starter (coming soon!)</li>
-          <li><a href="bcp.md" rel="noopener" target="_blank">Test of straight markdown rendering</a></li>
         </ul>
-       <!-- Content in markdown from old site -->
-
-       <h2>The American Prayer Book</h2> 
-by E. L. Parsons & B. H. Jones, 1955 from 1937. </br>  
-Available in: HTML  </br>
-<a href="http://assets.newscriptorium.com/anglican/bcp/parsonsjones1.htm" target="_blank">Part I: Start to Litany</a> | <a href="http://assets.newscriptorium.com/anglican/bcp/parsonsjones2.htm" target="_blank">Part II: Holy Communion to Bibliography</a>  
-***
-</br><br>
-
-**The Annotated Book of Common Prayer**  
-by John Henry Blunt, 1895.    
-Available in: [HTML](../assets/docs/anglican/bcp/bluntannotbcp.htm)
-***
-</br><br>
-**Church Services and Service Books Before the Reformation**   
-by H. B. Swete, 1905.  
-Available in: [PDF](../assets/docs/anglican/bcp/swete_churchservicesbooks.pdf)
-***
-</br><br>
-**The Heart of the Prayer Book**   
-by William E. Cox  
-Available in: [HTML](../assets/docs/anglican/bcp/cox_heartpb.htm)
-***
-</br><br>
-**Liturgy and Worship**   
-by W. K. Lowther Clarke & C. Harris. 1954.  
-Available in: [HTML](../assets/docs/anglican/bcp/clarke.htm)
-***
-</br><br>
-**The Liturgy Compared With the Bible**   
-by H. I. Bailey, 1850.  
-Available in: [HTML](../assets/docs/anglican/bcp/baileylitbible.htm)
-***
-</br><br>
-**The New American Prayer Book**   
-by E. C. Chorley  
-Available in: [HTML](../assets/docs/anglican/bcp/chorleybcp.htm)
-***
-</br><br>
-**A New History of the Book of Common Prayer**   
-by F. Procter & W. H. Frere, 1955 from 1905.  
-Available in: [HTML](../assets/docs/anglican/bcp/procterfrere.htm)
-***
-
-       <!-- end of Content in markdown from old site -->
-
-
       </div>
 
       <div class="col-md-6">
@@ -160,53 +118,6 @@ Available in: [HTML](../assets/docs/anglican/bcp/procterfrere.htm)
           <li><a href="../getting-started/parcel/">Bootstrap Parcel guide</a></li>
           <li><a href="../getting-started/build-tools/">Contributing to Bootstrap</a></li>
         </ul>
-
-        <!-- Content in markdown from old site -->
-
-<h3>The Pastoral Use of the Prayer Book</h3> 
-by W.Paret, 1904. </br>  
-Available in: <a href="../assets/docs/anglican/bcp/paret.htm" target="_blank">HTML</a>  
-</br><br>
-
-**The Prayer-Book**  
-by Evan Daniel. 23d ed., 1901  
-Available in: [HTML](../assets/docs/anglican/bcp/edanielpb.htm)
-***
-</br><br>
-
-**The Prayer Book Dictionary**  
-1913,  
-Available in: [HTML](http://anglicanhistory.org/bcp/dictionary1913) _offsite_
-*** 
-</br><br>
-**The Prayer Book Pattern**  
-by C. Adams, 1957.  
-Available in: PDF  
-[Part I:  Chapters 1-6](../assets/docs/anglican/bcp/adamspbpattern1.pdf) | [Part II:  Chapters 7-End](../assets/docs/anglican/bcp/adamspbpattern2.pdf)
-***
- </br><br> 
-**The Prayer Book Reason Why**  
-by Nelson R. Boss  
-Available in: [HTML](../assets/docs/anglican/bcp/bosspbrw.htm)
-***
-</br><br>
-**The Religion of the Prayer Book**  
-by Walden Pell & P. M. Dawley. 2d ed.  
-Available in: HTML  
-[Part I:  Chapters 1-15](../assets/docs/anglican/bcp/pd_ch01-15.htm)  |  [Part I:  Chapters 16-End](../assets/docs/anglican/bcp/pd_ch16-end.htm)
-***
-</br><br>
-**The Teacher's Prayer Book**  
-by Alfred Barry.  New (16th) ed.  
-Available in: [HTML](../assets/docs/anglican/bcp/teacherspb.htm)
-***
- </br><br>
-**The Tutorial Prayer Book**  
-edited by C. Neil & J. M. Willoughby, 1913  
-Available in: [HTML](../assets/docs/anglican/bcp/tutorialpb.htm)
-***
-
-        <!-- end of Content in markdown from old site -->
       </div>
     </div>
   </main>
@@ -216,7 +127,7 @@ Available in: [HTML](../assets/docs/anglican/bcp/tutorialpb.htm)
 </div>
 
 
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
       
   </body>
